@@ -1,0 +1,430 @@
+>> Test Fold = 1
+>> Training Data: 235
+>> Testing Data: 59
+ID3
+
+first1=o = 1
+|  first3=i = 1: +
+|  first3=i = 0
+|  |  first0=d = 1: +
+|  |  first0=d = 0
+|  |  |  first4=i = 1: +
+|  |  |  first4=i = 0: -
+first1=o = 0
+|  first2=e = 1: -
+|  first2=e = 0
+|  |  first2=o = 1: -
+|  |  first2=o = 0
+|  |  |  first4=i = 1: +
+|  |  |  first4=i = 0
+|  |  |  |  first2=i = 1: +
+|  |  |  |  first2=i = 0
+|  |  |  |  |  first3=i = 1
+|  |  |  |  |  |  last3=t = 1
+|  |  |  |  |  |  |  first2=n = 1: +
+|  |  |  |  |  |  |  first2=n = 0: -
+|  |  |  |  |  |  last3=t = 0
+|  |  |  |  |  |  |  last2=h = 1: -
+|  |  |  |  |  |  |  last2=h = 0: +
+|  |  |  |  |  first3=i = 0
+|  |  |  |  |  |  first2=c = 1: +
+|  |  |  |  |  |  first2=c = 0
+|  |  |  |  |  |  |  first3=l = 1: -
+|  |  |  |  |  |  |  first3=l = 0
+|  |  |  |  |  |  |  |  first1=e = 1
+|  |  |  |  |  |  |  |  |  first4=d = 1: +
+|  |  |  |  |  |  |  |  |  first4=d = 0: -
+|  |  |  |  |  |  |  |  first1=e = 0
+|  |  |  |  |  |  |  |  |  first2=n = 1
+|  |  |  |  |  |  |  |  |  |  last2=r = 1
+|  |  |  |  |  |  |  |  |  |  |  first3=d = 1: +
+|  |  |  |  |  |  |  |  |  |  |  first3=d = 0: -
+|  |  |  |  |  |  |  |  |  |  last2=r = 0: +
+|  |  |  |  |  |  |  |  |  first2=n = 0
+|  |  |  |  |  |  |  |  |  |  last4=a = 1
+|  |  |  |  |  |  |  |  |  |  |  first3=c = 1: -
+|  |  |  |  |  |  |  |  |  |  |  first3=c = 0: +
+|  |  |  |  |  |  |  |  |  |  last4=a = 0
+|  |  |  |  |  |  |  |  |  |  |  last4=h = 1: +
+|  |  |  |  |  |  |  |  |  |  |  last4=h = 0
+|  |  |  |  |  |  |  |  |  |  |  |  last1=n = 1: -
+|  |  |  |  |  |  |  |  |  |  |  |  last1=n = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  first1=a = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  last2=p = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  last2=p = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first2=v = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first2=v = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=c = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=j = 1: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=j = 0: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=c = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last1=e = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=k = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=k = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first2=r = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=w = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=w = 0: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first2=r = 0: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last1=e = 0: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  first1=a = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  first1=l = 1: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  first1=l = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last4=o = 1: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last4=o = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=b = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=b = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last3=a = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last3=a = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first2=r = 1: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first2=r = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first1=u = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first1=u = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=j = 1: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=j = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=a = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first2=m = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first2=m = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=m = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=m = 0: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=a = 0: +
+
+
+Correctly Classified Instances          46               77.9661 %
+Incorrectly Classified Instances        13               22.0339 %
+Kappa statistic                          0.5512
+Mean absolute error                      0.2203
+Root mean squared error                  0.4694
+Relative absolute error                 45.0824 %
+Root relative squared error             94.991  %
+Total Number of Instances               59     
+
+>> Test Fold = 2
+>> Training Data: 235
+>> Testing Data: 59
+ID3
+
+first1=i = 1
+|  first3=r = 1: -
+|  first3=r = 0: +
+first1=i = 0
+|  first3=i = 1
+|  |  last3=t = 1
+|  |  |  first2=v = 1: -
+|  |  |  first2=v = 0: +
+|  |  last3=t = 0: +
+|  first3=i = 0
+|  |  first4=i = 1: +
+|  |  first4=i = 0
+|  |  |  first2=i = 1: +
+|  |  |  first2=i = 0
+|  |  |  |  first1=o = 1
+|  |  |  |  |  first0=d = 1: +
+|  |  |  |  |  first0=d = 0: -
+|  |  |  |  first1=o = 0
+|  |  |  |  |  first2=o = 1: -
+|  |  |  |  |  first2=o = 0
+|  |  |  |  |  |  first2=d = 1: +
+|  |  |  |  |  |  first2=d = 0
+|  |  |  |  |  |  |  first4=e = 1: -
+|  |  |  |  |  |  |  first4=e = 0
+|  |  |  |  |  |  |  |  first2=n = 1
+|  |  |  |  |  |  |  |  |  last1=a = 1
+|  |  |  |  |  |  |  |  |  |  first0=s = 1: +
+|  |  |  |  |  |  |  |  |  |  first0=s = 0: -
+|  |  |  |  |  |  |  |  |  last1=a = 0: +
+|  |  |  |  |  |  |  |  first2=n = 0
+|  |  |  |  |  |  |  |  |  first4=d = 1: +
+|  |  |  |  |  |  |  |  |  first4=d = 0
+|  |  |  |  |  |  |  |  |  |  first3=s = 1: +
+|  |  |  |  |  |  |  |  |  |  first3=s = 0
+|  |  |  |  |  |  |  |  |  |  |  last0=h = 1: +
+|  |  |  |  |  |  |  |  |  |  |  last0=h = 0
+|  |  |  |  |  |  |  |  |  |  |  |  last4=a = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  first2=l = 1: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  first2=l = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  first4=o = 1: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  first4=o = 0: +
+|  |  |  |  |  |  |  |  |  |  |  |  last4=a = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  first3=d = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  first3=d = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  last2=p = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  last2=p = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first3=y = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=m = 1: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=m = 0: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first3=y = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=r = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=j = 1: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=j = 0: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=r = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first1=u = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first1=u = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=c = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=j = 1: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=j = 0: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=c = 0: -
+
+
+Correctly Classified Instances          49               83.0508 %
+Incorrectly Classified Instances        10               16.9492 %
+Kappa statistic                          0.6644
+Mean absolute error                      0.1695
+Root mean squared error                  0.4117
+Relative absolute error                 34.1354 %
+Root relative squared error             82.6356 %
+Total Number of Instances               59     
+
+>> Test Fold = 3
+>> Training Data: 235
+>> Testing Data: 59
+ID3
+
+first1=i = 1
+|  last4=d = 1: -
+|  last4=d = 0: +
+first1=i = 0
+|  first4=i = 1: +
+|  first4=i = 0
+|  |  first1=o = 1
+|  |  |  first0=d = 1: +
+|  |  |  first0=d = 0
+|  |  |  |  first3=i = 1: +
+|  |  |  |  first3=i = 0: -
+|  |  first1=o = 0
+|  |  |  first2=i = 1: +
+|  |  |  first2=i = 0
+|  |  |  |  first3=i = 1
+|  |  |  |  |  last3=t = 1: -
+|  |  |  |  |  last3=t = 0
+|  |  |  |  |  |  last0=c = 1: -
+|  |  |  |  |  |  last0=c = 0: +
+|  |  |  |  first3=i = 0
+|  |  |  |  |  first2=n = 1
+|  |  |  |  |  |  first0=l = 1: -
+|  |  |  |  |  |  first0=l = 0
+|  |  |  |  |  |  |  first1=e = 1: -
+|  |  |  |  |  |  |  first1=e = 0: +
+|  |  |  |  |  first2=n = 0
+|  |  |  |  |  |  first4=d = 1: +
+|  |  |  |  |  |  first4=d = 0
+|  |  |  |  |  |  |  first1=e = 1: -
+|  |  |  |  |  |  |  first1=e = 0
+|  |  |  |  |  |  |  |  last3=g = 1: -
+|  |  |  |  |  |  |  |  last3=g = 0
+|  |  |  |  |  |  |  |  |  first1=d = 1: +
+|  |  |  |  |  |  |  |  |  first1=d = 0
+|  |  |  |  |  |  |  |  |  |  first3=k = 1: +
+|  |  |  |  |  |  |  |  |  |  first3=k = 0
+|  |  |  |  |  |  |  |  |  |  |  last0=r = 1: +
+|  |  |  |  |  |  |  |  |  |  |  last0=r = 0
+|  |  |  |  |  |  |  |  |  |  |  |  last0=h = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  last0=h = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  first3=y = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=s = 1: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=s = 0: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  first3=y = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  first4=* = 1: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  first4=* = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last4=a = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=t = 1: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=t = 0: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last4=a = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first1=r = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=m = 1: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=m = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=d = 1: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=d = 0: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first1=r = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first3=h = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first3=h = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first1=n = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=m = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=m = 0: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first1=n = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=e = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=e = 0: -
+
+
+Correctly Classified Instances          47               79.661  %
+Incorrectly Classified Instances        12               20.339  %
+Kappa statistic                          0.5922
+Mean absolute error                      0.2034
+Root mean squared error                  0.451 
+Relative absolute error                 40.7799 %
+Root relative squared error             90.3142 %
+Total Number of Instances               59     
+
+>> Test Fold = 4
+>> Training Data: 236
+>> Testing Data: 58
+ID3
+
+first1=o = 1
+|  first3=i = 1: +
+|  first3=i = 0
+|  |  first4=i = 1: +
+|  |  first4=i = 0: -
+first1=o = 0
+|  first1=i = 1
+|  |  last1=o = 1
+|  |  |  first4=a = 1: +
+|  |  |  first4=a = 0
+|  |  |  |  first0=w = 1: +
+|  |  |  |  first0=w = 0: -
+|  |  last1=o = 0: +
+|  first1=i = 0
+|  |  first4=i = 1: +
+|  |  first4=i = 0
+|  |  |  first3=i = 1
+|  |  |  |  last3=t = 1
+|  |  |  |  |  first2=n = 1: +
+|  |  |  |  |  first2=n = 0: -
+|  |  |  |  last3=t = 0
+|  |  |  |  |  last2=h = 1: -
+|  |  |  |  |  last2=h = 0: +
+|  |  |  first3=i = 0
+|  |  |  |  first2=i = 1: +
+|  |  |  |  first2=i = 0
+|  |  |  |  |  first1=e = 1: -
+|  |  |  |  |  first1=e = 0
+|  |  |  |  |  |  last3=n = 1: +
+|  |  |  |  |  |  last3=n = 0
+|  |  |  |  |  |  |  first3=l = 1: -
+|  |  |  |  |  |  |  first3=l = 0
+|  |  |  |  |  |  |  |  first2=e = 1
+|  |  |  |  |  |  |  |  |  first0=o = 1: +
+|  |  |  |  |  |  |  |  |  first0=o = 0: -
+|  |  |  |  |  |  |  |  first2=e = 0
+|  |  |  |  |  |  |  |  |  first0=t = 1: -
+|  |  |  |  |  |  |  |  |  first0=t = 0
+|  |  |  |  |  |  |  |  |  |  first4=a = 1: +
+|  |  |  |  |  |  |  |  |  |  first4=a = 0
+|  |  |  |  |  |  |  |  |  |  |  last0=h = 1: +
+|  |  |  |  |  |  |  |  |  |  |  last0=h = 0
+|  |  |  |  |  |  |  |  |  |  |  |  last2=s = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  last2=s = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  first2=n = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=l = 1: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=l = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=m = 1: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=m = 0: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  first2=n = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  first4=d = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  first4=d = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last3=v = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last3=v = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first2=d = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=m = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=m = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last1=u = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last1=u = 0: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first2=d = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first1=r = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first2=u = 1: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first2=u = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=d = 1: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=d = 0: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first1=r = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=i = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=i = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first2=w = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first2=w = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=v = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=v = 0: -
+
+
+Correctly Classified Instances          52               89.6552 %
+Incorrectly Classified Instances         6               10.3448 %
+Kappa statistic                          0.7931
+Mean absolute error                      0.1034
+Root mean squared error                  0.3216
+Relative absolute error                 20.6897 %
+Root relative squared error             64.3268 %
+Total Number of Instances               58     
+
+>> Test Fold = 5
+>> Training Data: 235
+>> Testing Data: 59
+ID3
+
+first1=i = 1
+|  last1=o = 1
+|  |  first4=a = 1: +
+|  |  first4=a = 0
+|  |  |  first0=w = 1: +
+|  |  |  first0=w = 0: -
+|  last1=o = 0: +
+first1=i = 0
+|  first2=i = 1: +
+|  first2=i = 0
+|  |  first4=i = 1: +
+|  |  first4=i = 0
+|  |  |  first3=i = 1
+|  |  |  |  first2=v = 1
+|  |  |  |  |  last1=o = 1: -
+|  |  |  |  |  last1=o = 0
+|  |  |  |  |  |  last0=o = 1: -
+|  |  |  |  |  |  last0=o = 0: +
+|  |  |  |  first2=v = 0: +
+|  |  |  first3=i = 0
+|  |  |  |  first1=o = 1
+|  |  |  |  |  first0=d = 1: +
+|  |  |  |  |  first0=d = 0: -
+|  |  |  |  first1=o = 0
+|  |  |  |  |  first2=n = 1
+|  |  |  |  |  |  first0=l = 1: -
+|  |  |  |  |  |  first0=l = 0
+|  |  |  |  |  |  |  first3=f = 1: -
+|  |  |  |  |  |  |  first3=f = 0: +
+|  |  |  |  |  first2=n = 0
+|  |  |  |  |  |  first1=r = 1
+|  |  |  |  |  |  |  first2=u = 1: -
+|  |  |  |  |  |  |  first2=u = 0: +
+|  |  |  |  |  |  first1=r = 0
+|  |  |  |  |  |  |  first1=d = 1: +
+|  |  |  |  |  |  |  first1=d = 0
+|  |  |  |  |  |  |  |  first4=d = 1: +
+|  |  |  |  |  |  |  |  first4=d = 0
+|  |  |  |  |  |  |  |  |  last2=s = 1: +
+|  |  |  |  |  |  |  |  |  last2=s = 0
+|  |  |  |  |  |  |  |  |  |  first2=d = 1
+|  |  |  |  |  |  |  |  |  |  |  first0=n = 1: -
+|  |  |  |  |  |  |  |  |  |  |  first0=n = 0
+|  |  |  |  |  |  |  |  |  |  |  |  last0=n = 1: -
+|  |  |  |  |  |  |  |  |  |  |  |  last0=n = 0: +
+|  |  |  |  |  |  |  |  |  |  first2=d = 0
+|  |  |  |  |  |  |  |  |  |  |  first3=k = 1
+|  |  |  |  |  |  |  |  |  |  |  |  last4=e = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  last0=c = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  last0=c = 0: -
+|  |  |  |  |  |  |  |  |  |  |  |  last4=e = 0: +
+|  |  |  |  |  |  |  |  |  |  |  first3=k = 0
+|  |  |  |  |  |  |  |  |  |  |  |  first0=h = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  first2=l = 1: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  first2=l = 0: +
+|  |  |  |  |  |  |  |  |  |  |  |  first0=h = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  last4=a = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  first4=a = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  first4=a = 0: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  last4=a = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=b = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  first0=b = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last3=b = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last3=b = 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first3=y = 1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=w = 1: +
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  last0=w = 0: -
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  first3=y = 0: -
+
+
+Correctly Classified Instances          43               72.8814 %
+Incorrectly Classified Instances        16               27.1186 %
+Kappa statistic                          0.4473
+Mean absolute error                      0.2712
+Root mean squared error                  0.5208
+Relative absolute error                 54.6167 %
+Root relative squared error            104.5267 %
+Total Number of Instances               59     
+
+
+>> Average Accuracy = 80.64289888953829

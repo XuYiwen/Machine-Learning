@@ -1,0 +1,170 @@
+>> Test Fold = 1
+>> Training Data: 235
+>> Testing Data: 59
+ID3
+
+first1=o = 1
+|  first3=i = 1: +
+|  first3=i = 0
+|  |  first0=d = 1: +
+|  |  first0=d = 0
+|  |  |  first4=i = 1: +
+|  |  |  first4=i = 0: -
+first1=o = 0
+|  first2=e = 1: -
+|  first2=e = 0
+|  |  first2=o = 1: -
+|  |  first2=o = 0
+|  |  |  first4=i = 1: +
+|  |  |  first4=i = 0
+|  |  |  |  first2=i = 1: +
+|  |  |  |  first2=i = 0: +
+
+
+Correctly Classified Instances          46               77.9661 %
+Incorrectly Classified Instances        13               22.0339 %
+Kappa statistic                          0.5263
+Mean absolute error                      0.322 
+Root mean squared error                  0.4155
+Relative absolute error                 65.8897 %
+Root relative squared error             84.0743 %
+Total Number of Instances               59     
+
+>> Test Fold = 2
+>> Training Data: 235
+>> Testing Data: 59
+ID3
+
+first1=i = 1
+|  first3=r = 1: -
+|  first3=r = 0: +
+first1=i = 0
+|  first3=i = 1
+|  |  last3=t = 1
+|  |  |  first2=v = 1: -
+|  |  |  first2=v = 0: +
+|  |  last3=t = 0: +
+|  first3=i = 0
+|  |  first4=i = 1: +
+|  |  first4=i = 0
+|  |  |  first2=i = 1: +
+|  |  |  first2=i = 0
+|  |  |  |  first1=o = 1: -
+|  |  |  |  first1=o = 0: -
+
+
+Correctly Classified Instances          50               84.7458 %
+Incorrectly Classified Instances         9               15.2542 %
+Kappa statistic                          0.6882
+Mean absolute error                      0.2492
+Root mean squared error                  0.3627
+Relative absolute error                 50.1807 %
+Root relative squared error             72.8004 %
+Total Number of Instances               59     
+
+>> Test Fold = 3
+>> Training Data: 235
+>> Testing Data: 59
+ID3
+
+first1=i = 1
+|  last4=d = 1: -
+|  last4=d = 0: +
+first1=i = 0
+|  first4=i = 1: +
+|  first4=i = 0
+|  |  first1=o = 1
+|  |  |  first0=d = 1: +
+|  |  |  first0=d = 0
+|  |  |  |  first3=i = 1: +
+|  |  |  |  first3=i = 0: -
+|  |  first1=o = 0
+|  |  |  first2=i = 1: +
+|  |  |  first2=i = 0
+|  |  |  |  first3=i = 1: +
+|  |  |  |  first3=i = 0: -
+
+
+Correctly Classified Instances          49               83.0508 %
+Incorrectly Classified Instances        10               16.9492 %
+Kappa statistic                          0.6554
+Mean absolute error                      0.2449
+Root mean squared error                  0.3515
+Relative absolute error                 49.1    %
+Root relative squared error             70.3888 %
+Total Number of Instances               59     
+
+>> Test Fold = 4
+>> Training Data: 236
+>> Testing Data: 58
+ID3
+
+first1=o = 1
+|  first3=i = 1: +
+|  first3=i = 0
+|  |  first4=i = 1: +
+|  |  first4=i = 0: -
+first1=o = 0
+|  first1=i = 1
+|  |  last1=o = 1
+|  |  |  first4=a = 1: +
+|  |  |  first4=a = 0
+|  |  |  |  first0=w = 1: +
+|  |  |  |  first0=w = 0: -
+|  |  last1=o = 0: +
+|  first1=i = 0
+|  |  first4=i = 1: +
+|  |  first4=i = 0
+|  |  |  first3=i = 1
+|  |  |  |  last3=t = 1: -
+|  |  |  |  last3=t = 0: +
+|  |  |  first3=i = 0
+|  |  |  |  first2=i = 1: +
+|  |  |  |  first2=i = 0: -
+
+
+Correctly Classified Instances          44               75.8621 %
+Incorrectly Classified Instances        14               24.1379 %
+Kappa statistic                          0.5172
+Mean absolute error                      0.276 
+Root mean squared error                  0.3934
+Relative absolute error                 55.2055 %
+Root relative squared error             78.6865 %
+Total Number of Instances               58     
+
+>> Test Fold = 5
+>> Training Data: 235
+>> Testing Data: 59
+ID3
+
+first1=i = 1
+|  last1=o = 1
+|  |  first4=a = 1: +
+|  |  first4=a = 0
+|  |  |  first0=w = 1: +
+|  |  |  first0=w = 0: -
+|  last1=o = 0: +
+first1=i = 0
+|  first2=i = 1: +
+|  first2=i = 0
+|  |  first4=i = 1: +
+|  |  first4=i = 0
+|  |  |  first3=i = 1
+|  |  |  |  first2=v = 1: +
+|  |  |  |  first2=v = 0: +
+|  |  |  first3=i = 0
+|  |  |  |  first1=o = 1: -
+|  |  |  |  first1=o = 0: -
+
+
+Correctly Classified Instances          48               81.3559 %
+Incorrectly Classified Instances        11               18.6441 %
+Kappa statistic                          0.634 
+Mean absolute error                      0.2689
+Root mean squared error                  0.3621
+Relative absolute error                 54.1547 %
+Root relative squared error             72.6741 %
+Total Number of Instances               59     
+
+
+>> Average Accuracy = 80.59614260666277

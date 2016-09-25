@@ -1,0 +1,242 @@
+>> Test Fold = 1
+>> Training Data: 235
+>> Testing Data: 59
+ID3
+
+first1=o = 1
+|  first3=i = 1: +
+|  first3=i = 0
+|  |  first0=d = 1: +
+|  |  first0=d = 0
+|  |  |  first4=i = 1: +
+|  |  |  first4=i = 0: -
+first1=o = 0
+|  first2=e = 1: -
+|  first2=e = 0
+|  |  first2=o = 1: -
+|  |  first2=o = 0
+|  |  |  first4=i = 1: +
+|  |  |  first4=i = 0
+|  |  |  |  first2=i = 1: +
+|  |  |  |  first2=i = 0
+|  |  |  |  |  first3=i = 1
+|  |  |  |  |  |  last3=t = 1
+|  |  |  |  |  |  |  first2=n = 1: +
+|  |  |  |  |  |  |  first2=n = 0: -
+|  |  |  |  |  |  last3=t = 0
+|  |  |  |  |  |  |  last2=h = 1: -
+|  |  |  |  |  |  |  last2=h = 0: +
+|  |  |  |  |  first3=i = 0
+|  |  |  |  |  |  first2=c = 1: +
+|  |  |  |  |  |  first2=c = 0
+|  |  |  |  |  |  |  first3=l = 1: -
+|  |  |  |  |  |  |  first3=l = 0
+|  |  |  |  |  |  |  |  first1=e = 1: -
+|  |  |  |  |  |  |  |  first1=e = 0: +
+
+
+Correctly Classified Instances          48               81.3559 %
+Incorrectly Classified Instances        11               18.6441 %
+Kappa statistic                          0.6079
+Mean absolute error                      0.2488
+Root mean squared error                  0.3832
+Relative absolute error                 50.8978 %
+Root relative squared error             77.5565 %
+Total Number of Instances               59     
+
+>> Test Fold = 2
+>> Training Data: 235
+>> Testing Data: 59
+ID3
+
+first1=i = 1
+|  first3=r = 1: -
+|  first3=r = 0: +
+first1=i = 0
+|  first3=i = 1
+|  |  last3=t = 1
+|  |  |  first2=v = 1: -
+|  |  |  first2=v = 0: +
+|  |  last3=t = 0: +
+|  first3=i = 0
+|  |  first4=i = 1: +
+|  |  first4=i = 0
+|  |  |  first2=i = 1: +
+|  |  |  first2=i = 0
+|  |  |  |  first1=o = 1
+|  |  |  |  |  first0=d = 1: +
+|  |  |  |  |  first0=d = 0: -
+|  |  |  |  first1=o = 0
+|  |  |  |  |  first2=o = 1: -
+|  |  |  |  |  first2=o = 0
+|  |  |  |  |  |  first2=d = 1: +
+|  |  |  |  |  |  first2=d = 0
+|  |  |  |  |  |  |  first4=e = 1: -
+|  |  |  |  |  |  |  first4=e = 0
+|  |  |  |  |  |  |  |  first2=n = 1: +
+|  |  |  |  |  |  |  |  first2=n = 0: -
+
+
+Correctly Classified Instances          50               84.7458 %
+Incorrectly Classified Instances         9               15.2542 %
+Kappa statistic                          0.6918
+Mean absolute error                      0.2315
+Root mean squared error                  0.3755
+Relative absolute error                 46.6179 %
+Root relative squared error             75.3805 %
+Total Number of Instances               59     
+
+>> Test Fold = 3
+>> Training Data: 235
+>> Testing Data: 59
+ID3
+
+first1=i = 1
+|  last4=d = 1: -
+|  last4=d = 0: +
+first1=i = 0
+|  first4=i = 1: +
+|  first4=i = 0
+|  |  first1=o = 1
+|  |  |  first0=d = 1: +
+|  |  |  first0=d = 0
+|  |  |  |  first3=i = 1: +
+|  |  |  |  first3=i = 0: -
+|  |  first1=o = 0
+|  |  |  first2=i = 1: +
+|  |  |  first2=i = 0
+|  |  |  |  first3=i = 1
+|  |  |  |  |  last3=t = 1: -
+|  |  |  |  |  last3=t = 0
+|  |  |  |  |  |  last0=c = 1: -
+|  |  |  |  |  |  last0=c = 0: +
+|  |  |  |  first3=i = 0
+|  |  |  |  |  first2=n = 1
+|  |  |  |  |  |  first0=l = 1: -
+|  |  |  |  |  |  first0=l = 0
+|  |  |  |  |  |  |  first1=e = 1: -
+|  |  |  |  |  |  |  first1=e = 0: +
+|  |  |  |  |  first2=n = 0
+|  |  |  |  |  |  first4=d = 1: +
+|  |  |  |  |  |  first4=d = 0
+|  |  |  |  |  |  |  first1=e = 1: -
+|  |  |  |  |  |  |  first1=e = 0
+|  |  |  |  |  |  |  |  last3=g = 1: -
+|  |  |  |  |  |  |  |  last3=g = 0: -
+
+
+Correctly Classified Instances          48               81.3559 %
+Incorrectly Classified Instances        11               18.6441 %
+Kappa statistic                          0.6216
+Mean absolute error                      0.2461
+Root mean squared error                  0.4013
+Relative absolute error                 49.3476 %
+Root relative squared error             80.3673 %
+Total Number of Instances               59     
+
+>> Test Fold = 4
+>> Training Data: 236
+>> Testing Data: 58
+ID3
+
+first1=o = 1
+|  first3=i = 1: +
+|  first3=i = 0
+|  |  first4=i = 1: +
+|  |  first4=i = 0: -
+first1=o = 0
+|  first1=i = 1
+|  |  last1=o = 1
+|  |  |  first4=a = 1: +
+|  |  |  first4=a = 0
+|  |  |  |  first0=w = 1: +
+|  |  |  |  first0=w = 0: -
+|  |  last1=o = 0: +
+|  first1=i = 0
+|  |  first4=i = 1: +
+|  |  first4=i = 0
+|  |  |  first3=i = 1
+|  |  |  |  last3=t = 1
+|  |  |  |  |  first2=n = 1: +
+|  |  |  |  |  first2=n = 0: -
+|  |  |  |  last3=t = 0
+|  |  |  |  |  last2=h = 1: -
+|  |  |  |  |  last2=h = 0: +
+|  |  |  first3=i = 0
+|  |  |  |  first2=i = 1: +
+|  |  |  |  first2=i = 0
+|  |  |  |  |  first1=e = 1: -
+|  |  |  |  |  first1=e = 0
+|  |  |  |  |  |  last3=n = 1: +
+|  |  |  |  |  |  last3=n = 0
+|  |  |  |  |  |  |  first3=l = 1: -
+|  |  |  |  |  |  |  first3=l = 0
+|  |  |  |  |  |  |  |  first2=e = 1: -
+|  |  |  |  |  |  |  |  first2=e = 0: -
+
+
+Correctly Classified Instances          43               74.1379 %
+Incorrectly Classified Instances        15               25.8621 %
+Kappa statistic                          0.4828
+Mean absolute error                      0.2408
+Root mean squared error                  0.3849
+Relative absolute error                 48.1527 %
+Root relative squared error             76.9786 %
+Total Number of Instances               58     
+
+>> Test Fold = 5
+>> Training Data: 235
+>> Testing Data: 59
+ID3
+
+first1=i = 1
+|  last1=o = 1
+|  |  first4=a = 1: +
+|  |  first4=a = 0
+|  |  |  first0=w = 1: +
+|  |  |  first0=w = 0: -
+|  last1=o = 0: +
+first1=i = 0
+|  first2=i = 1: +
+|  first2=i = 0
+|  |  first4=i = 1: +
+|  |  first4=i = 0
+|  |  |  first3=i = 1
+|  |  |  |  first2=v = 1
+|  |  |  |  |  last1=o = 1: -
+|  |  |  |  |  last1=o = 0
+|  |  |  |  |  |  last0=o = 1: -
+|  |  |  |  |  |  last0=o = 0: +
+|  |  |  |  first2=v = 0: +
+|  |  |  first3=i = 0
+|  |  |  |  first1=o = 1
+|  |  |  |  |  first0=d = 1: +
+|  |  |  |  |  first0=d = 0: -
+|  |  |  |  first1=o = 0
+|  |  |  |  |  first2=n = 1
+|  |  |  |  |  |  first0=l = 1: -
+|  |  |  |  |  |  first0=l = 0
+|  |  |  |  |  |  |  first3=f = 1: -
+|  |  |  |  |  |  |  first3=f = 0: +
+|  |  |  |  |  first2=n = 0
+|  |  |  |  |  |  first1=r = 1
+|  |  |  |  |  |  |  first2=u = 1: -
+|  |  |  |  |  |  |  first2=u = 0: +
+|  |  |  |  |  |  first1=r = 0
+|  |  |  |  |  |  |  first1=d = 1: +
+|  |  |  |  |  |  |  first1=d = 0
+|  |  |  |  |  |  |  |  first4=d = 1: +
+|  |  |  |  |  |  |  |  first4=d = 0: -
+
+
+Correctly Classified Instances          48               81.3559 %
+Incorrectly Classified Instances        11               18.6441 %
+Kappa statistic                          0.6277
+Mean absolute error                      0.2207
+Root mean squared error                  0.4007
+Relative absolute error                 44.4528 %
+Root relative squared error             80.4284 %
+Total Number of Instances               59     
+
+
+>> Average Accuracy = 80.59029807130334
